@@ -18,3 +18,18 @@ def substrings(str):
         for k in range(panjang - i + 1):  
             print(str[k:k + i])
 substrings(str1)
+#outputnya
+# loop 1 = [0:0+1] M
+# loop 1 = [1:1+1] I
+# loop 1 = [2:2+1] P
+# loop 1 = [3:3+1] A
+ 
+# loop 2 = [0:0+2] MI
+# loop 2 = [1:1+2] IP
+# loop 2 = [2:2+2] PA -> 2-3 atau mulai dari 2 sampai sebelum 4
+
+#loop 3 = [0:0+3] MIP
+#loop 3 = [1:1+3] IPA
+
+#loop 4 = [0:0+4] MIPA
+

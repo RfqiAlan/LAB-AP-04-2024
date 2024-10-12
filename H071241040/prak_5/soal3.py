@@ -4,15 +4,16 @@ def hitung_frekuensi(str):
     frek = dict()
     for i in str:
         if i in frek:
-            frek[i] += 1  
+            frek[i] += 1 
         else:
-            frek[i] = 1  
+            frek[i] = 1 
     return frek
 
 frek1 = hitung_frekuensi(str1)
 frek2 = hitung_frekuensi(str2)
 
-
+# key = Value
+# a = 3
 def total_penghapusan():
     total = 0
     for i in frek1:
@@ -29,7 +30,6 @@ print(frek1)
 print(frek2)
 print(f"yang harus di hapus : ", total_penghapusan())
 
-# print(frek1["a"])
 
 
 
